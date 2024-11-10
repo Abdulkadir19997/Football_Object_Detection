@@ -66,14 +66,14 @@ To do this, I find the average position of each team's players on the x axis, an
 For **every frame** of the video, the model operates as follows:  
 **1. Running YOLO model inference on the current frame**  
 The model classifies each object into one of the 5 classes  
-![image](readme_images\265280565-3c5d2d05-4f85-4b0e-9389-c29d14aeb17d.png)
+![image](readme_images/265280565-3c5d2d05-4f85-4b0e-9389-c29d14aeb17d.png)
 
 **2. Finding the kit color of each player**  
 By using the same method as before, removing the grass background from the player's bounding box and getting the average color of the remaining pixels.  
 
 **3. Classifying each player into "team 0" or "team 1"**  
 This is done by finding out to which closest K-Means centroid (found in the first frame) to the player's kit color.
-![image](readme_images\265281381-68a7d2c0-4d06-465a-a5dc-a7f1c8878b6e.png)
+![image](readme_images/265281381-68a7d2c0-4d06-465a-a5dc-a7f1c8878b6e.png)
 
 **4. Labeling each team as "Left" or "Right"**  
 This is done by comparing the team's label (0 or 1) to the label of the "Team Left" found in the first frame
