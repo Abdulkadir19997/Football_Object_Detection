@@ -9,7 +9,8 @@ This project utilizes object detection algorithms to analyze football matches vi
 6 - Side referee  
 7 - Staff members  
 ## Demo
-[![Demo Video](https://github.com/Abdulkadir19997/Football_Object_Detection/blob/main/assets/thumbnail.png)](https://drive.google.com/file/d/16FyuckQ-wT9O7lXJBEavM6136mIVDXI5/view?usp=sharing)
+https://github.com/Mostafa-Nafie/Football-Object-Detection/assets/44211916/aaac347e-f21b-4433-841c-0cefea8770d2
+
 
 
 
