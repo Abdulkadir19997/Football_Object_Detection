@@ -8,8 +8,8 @@ This project utilizes object detection algorithms to analyze football matches vi
 5 - Main referee  
 6 - Side referee  
 7 - Staff members  
-## Demo
 
+## Demo
 ![video](output/CityUTdR_out.mp4)
 
 
